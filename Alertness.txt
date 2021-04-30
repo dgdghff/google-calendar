@@ -1,0 +1,43 @@
+[this pertaining to my protection, that's why the sound of siren's go off to alert what i'm doing](https://www.federalregister.gov/documents/2021/04/07/2021-07239/termination-of-emergency-with-respect-to-the-international-criminal-court),
+[ibm upgrade](https://cloud.ibm.com/analytics/build/1.4.77/bluemix-analytics.min.js),
+[kub](https://cloud.ibm.com/kubernetes/js/app.bundle.dfc2e93257313ca8e811.js),
+[jq](https://cloud.ibm.com/kubernetes/lib/jquery-3.5.1.js),
+[bundle](https://cloud.ibm.com/kubernetes/js/vendor.bundle.e55c3a6f62c9d40ead29.js),
+[this the racist carbon](
+https://cloud.ibm.com/kubernetes/js/carbon.bundle.c74735995e9547b45b4b.js),
+[api](https://cloud.ibm.com/cache/58c93-265535795/api/v6/js/common-header.js),
+[void](about:blank "javascript:void(0)),
+[logout](
+https://iam.cloud.ibm.com/identity/logout?client_id=HOP55v1CCT&post_logout_redirect_uri=https%3A%2F%2Fcloud.ibm.com),
+[apple not me](https://cloud.ibm.com/developer/appledevelopment/create-app?navMode=starterkits),
+[schemt](https://cloud.ibm.com/observe),
+[smtics](https://cloud.ibm.com/schematics),
+[reg](https://cloud.ibm.com/registry/overview),
+[api](https://cloud.ibm.com/apis/overview),
+[templ](https://cloud.ibm.com/vpc-ext/autoscale/templates),
+[atscl](https://cloud.ibm.com/vpc-ext/autoscale/groups),
+vpc](https://cloud.ibm.com/vpc-ext/storage/storageVolumes),
+[lbal](https://cloud.ibm.com/vpc-ext/network/loadBalancers),
+[cata](https://cloud.ibm.com/vpc-ext/network/flowLogs),
+[networkgateways](https://cloud.ibm.com/vpc-ext/network/vpngateways),
+[secgrps](https://cloud.ibm.com/vpc-ext/network/securityGroups),
+[acl](https://cloud.ibm.com/vpc-ext/network/acl),
+[public](https://cloud.ibm.com/vpc-ext/network/publicGateways),
+(floatingip](
+https://cloud.ibm.com/vpc-ext/network/floatingIPs),
+[subnets](https://cloud.ibm.com/vpc-ext/network/subnets),
+[vpcs](https://cloud.ibm.com/vpc-ext/network/vpcs),
+[images](https://cloud.ibm.com/vpc-ext/compute/images),
+[ssh](https://cloud.ibm.com/vpc-ext/compute/sshKeys),
+[hosts](https://cloud.ibm.com/vpc-ext/compute/dedicatedHosts),
+[compute](https://cloud.ibm.com/vpc-ext/compute/vs),
+[layout](
+https://cloud.ibm.com/vpc-ext/vpcLayout),
+[overview](https://cloud.ibm.com/vpc-ext/overview),
+[infrastructure](https://cloud.ibm.com/infrastructure/vmware-solutions/console/settings),
+
+
+
+
+
+

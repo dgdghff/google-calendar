@@ -1,0 +1,1 @@
+[{"target_variable":[],"metrics":[{"range":[1,1],"label":"lr","values":[],"tickformat":".3f","tickvals":[],"ticktext":[]},{"range":[1,1],"label":"dropout","values":[],"tickformat":".3f","tickvals":[],"ticktext":[]},{"range":[1.7976931348623157e+308,5e-324],"label":"val_acc","values":[],"tickformat":".3f"}],"experiments":[]}]

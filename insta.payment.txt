@@ -1,0 +1,1852 @@
+{
+  "id" : "4d1936482b0265a7",
+  "totalErrorCount" : 0,
+  "rootSpan" : {
+    "id" : "4d1936482b0265a7",
+    "parentId" : "",
+    "callId" : "4d1936482b0265a7",
+    "name" : "wsgi",
+    "label" : "POST /pay/anonymous-948858",
+    "start" : 1616298706467,
+    "duration" : 19,
+    "calculatedSelfTime" : 8,
+    "errorCount" : 0,
+    "batchSize" : 1,
+    "batchSelfTime" : 19,
+    "kind" : "ENTRY",
+    "isSynthetic" : false,
+    "data" : {
+      "http" : {
+        "rawUrl" : "/pay/anonymous-948858",
+        "path" : "/pay/anonymous-948858",
+        "method" : "POST",
+        "host" : "payment:8080",
+        "path_tpl" : "/pay/{id}",
+        "status" : 200
+      },
+      "sdk" : {
+        "custom" : {
+          "tags" : {
+            "http" : {
+              "Accept" : "*/*",
+              "User-Agent" : "python-requests/2.21.0"
+            }
+          }
+        }
+      }
+    },
+    "source" : {
+      "applications" : [ ],
+      "service" : {
+        "id" : "ROOT",
+        "label" : "",
+        "types" : [ ],
+        "technologies" : [ ],
+        "entityType" : "SERVICE"
+      },
+      "endpoint" : {
+        "id" : "kVZuxJ7SE8F89iXn6dJ6rdEjQzY",
+        "label" : "Unspecified",
+        "type" : "UNDEFINED",
+        "serviceId" : "",
+        "technologies" : [ ],
+        "syntheticType" : "NON_SYNTHETIC",
+        "entityType" : "ENDPOINT"
+      },
+      "physicalContext" : { }
+    },
+    "destination" : {
+      "applications" : [ {
+        "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+        "label" : "Payment Services",
+        "boundaryScope" : "INBOUND",
+        "entityType" : "APPLICATION"
+      }, {
+        "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+        "label" : "robot-shop with frontend",
+        "boundaryScope" : "INBOUND",
+        "entityType" : "APPLICATION"
+      }, {
+        "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+        "label" : "All Services",
+        "boundaryScope" : "INBOUND",
+        "entityType" : "APPLICATION"
+      } ],
+      "service" : {
+        "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+        "label" : "payment",
+        "types" : [ ],
+        "technologies" : [ ],
+        "entityType" : "SERVICE"
+      },
+      "endpoint" : {
+        "id" : "TVNRYn4HO9xIJSNQy-IvDQZhfp4",
+        "label" : "POST /pay/{id}",
+        "type" : "HTTP",
+        "serviceId" : "",
+        "technologies" : [ ],
+        "syntheticType" : "NON_SYNTHETIC",
+        "entityType" : "ENDPOINT"
+      },
+      "physicalContext" : {
+        "process" : {
+          "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+          "time" : 1614785071000,
+          "label" : "payment",
+          "plugin" : "pythonRuntimePlatform",
+          "data" : null
+        },
+        "container" : {
+          "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+          "time" : 1614785086000,
+          "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+          "plugin" : "docker",
+          "data" : null
+        },
+        "host" : {
+          "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+          "time" : 1614785173000,
+          "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+          "plugin" : "host",
+          "data" : {
+            "cpu.count" : 4,
+            "os.name" : "Linux",
+            "memory.total" : 15738195968
+          }
+        }
+      }
+    },
+    "stackTrace" : [ {
+      "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+      "method" : "preprocess_request",
+      "line" : "2242"
+    }, {
+      "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+      "method" : "full_dispatch_request",
+      "line" : "1948"
+    } ],
+    "childSpans" : [ {
+      "id" : "59828af7d1b4ea25",
+      "parentId" : "4d1936482b0265a7",
+      "callId" : "a04bb75ec26384c0",
+      "name" : "urllib3",
+      "label" : "GET /check/anonymous-948858",
+      "start" : 1616298706470,
+      "duration" : 5,
+      "calculatedSelfTime" : 2,
+      "errorCount" : 0,
+      "batchSize" : 1,
+      "batchSelfTime" : 5,
+      "kind" : "EXIT",
+      "isSynthetic" : false,
+      "data" : {
+        "http" : {
+          "path" : "/check/anonymous-948858",
+          "protocol" : "http",
+          "method" : "GET",
+          "host" : "user:8080",
+          "url" : "http://user:8080/check/anonymous-948858",
+          "status" : 404
+        }
+      },
+      "source" : {
+        "applications" : [ {
+          "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+          "label" : "robot-shop with frontend",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+          "label" : "Payment Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+          "label" : "All Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        } ],
+        "service" : {
+          "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+          "label" : "payment",
+          "types" : [ ],
+          "technologies" : [ ],
+          "entityType" : "SERVICE"
+        },
+        "endpoint" : {
+          "id" : "TVNRYn4HO9xIJSNQy-IvDQZhfp4",
+          "label" : "POST /pay/{id}",
+          "type" : "HTTP",
+          "serviceId" : "",
+          "technologies" : [ ],
+          "syntheticType" : "NON_SYNTHETIC",
+          "entityType" : "ENDPOINT"
+        },
+        "physicalContext" : {
+          "process" : {
+            "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+            "time" : 1614785071000,
+            "label" : "payment",
+            "plugin" : "pythonRuntimePlatform",
+            "data" : null
+          },
+          "container" : {
+            "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+            "time" : 1614785086000,
+            "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+            "plugin" : "docker",
+            "data" : null
+          },
+          "host" : {
+            "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+            "time" : 1614785173000,
+            "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+            "plugin" : "host",
+            "data" : {
+              "cpu.count" : 4,
+              "os.name" : "Linux",
+              "memory.total" : 15738195968
+            }
+          }
+        }
+      },
+      "destination" : {
+        "applications" : [ {
+          "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+          "label" : "All Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+          "label" : "robot-shop with frontend",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "Tg3WNRsgRKuKlZ-2puvYHA",
+          "label" : "The Only Real Dev Language",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+          "label" : "Payment Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        } ],
+        "service" : {
+          "id" : "12dea96fec20593566ab75692c9949596833adc9",
+          "label" : "user",
+          "types" : [ ],
+          "technologies" : [ ],
+          "entityType" : "SERVICE"
+        },
+        "endpoint" : {
+          "id" : "Ld9_AnwFzmwpwnlRUh7UIH1sGQU",
+          "label" : "GET /check/:id",
+          "type" : "HTTP",
+          "serviceId" : "",
+          "technologies" : [ ],
+          "syntheticType" : "NON_SYNTHETIC",
+          "entityType" : "ENDPOINT"
+        },
+        "physicalContext" : {
+          "process" : {
+            "id" : "TEvv2HeTssKBtWs2OPz9Q7G16no",
+            "time" : 1614785414000,
+            "label" : "user v1.0.0",
+            "plugin" : "nodeJsRuntimePlatform",
+            "data" : null
+          },
+          "container" : {
+            "id" : "3bXYFCmVcnmujSGyJ6cSGHicQRg",
+            "time" : 1614785120000,
+            "label" : "user (robot-shop/user-77554dc6c9-76n8z)",
+            "plugin" : "docker",
+            "data" : null
+          },
+          "host" : {
+            "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+            "time" : 1614785173000,
+            "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+            "plugin" : "host",
+            "data" : {
+              "cpu.count" : 4,
+              "os.name" : "Linux",
+              "memory.total" : 15738195968
+            }
+          }
+        }
+      },
+      "stackTrace" : [ {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/adapters.py",
+        "method" : "send",
+        "line" : "449"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/sessions.py",
+        "method" : "send",
+        "line" : "643"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/sessions.py",
+        "method" : "request",
+        "line" : "530"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/api.py",
+        "method" : "request",
+        "line" : "61"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/api.py",
+        "method" : "get",
+        "line" : "76"
+      }, {
+        "file" : "payment.py",
+        "method" : "pay",
+        "line" : "69"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+        "method" : "dispatch_request",
+        "line" : "1936"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+        "method" : "full_dispatch_request",
+        "line" : "1950"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+        "method" : "wsgi_app",
+        "line" : "2447"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+        "method" : "__call__",
+        "line" : "2464"
+      } ],
+      "childSpans" : [ {
+        "id" : "a04bb75ec26384c0",
+        "parentId" : "59828af7d1b4ea25",
+        "callId" : "a04bb75ec26384c0",
+        "name" : "node.http.server",
+        "label" : "GET /check/anonymous-948858",
+        "start" : 1616298706471,
+        "duration" : 3,
+        "calculatedSelfTime" : 2,
+        "errorCount" : 0,
+        "batchSize" : 1,
+        "batchSelfTime" : 3,
+        "kind" : "ENTRY",
+        "isSynthetic" : false,
+        "data" : {
+          "http" : {
+            "rawUrl" : "/check/anonymous-948858",
+            "path" : "/check/anonymous-948858",
+            "method" : "GET",
+            "host" : "user:8080",
+            "header" : {
+              "accept" : "*/*",
+              "user-agent" : "python-requests/2.23.0"
+            },
+            "path_tpl" : "/check/:id",
+            "status" : 404
+          }
+        },
+        "source" : {
+          "applications" : [ {
+            "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+            "label" : "Payment Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+            "label" : "robot-shop with frontend",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+            "label" : "All Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          } ],
+          "service" : {
+            "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+            "label" : "payment",
+            "types" : [ ],
+            "technologies" : [ ],
+            "entityType" : "SERVICE"
+          },
+          "endpoint" : {
+            "id" : "TVNRYn4HO9xIJSNQy-IvDQZhfp4",
+            "label" : "POST /pay/{id}",
+            "type" : "HTTP",
+            "serviceId" : "",
+            "technologies" : [ ],
+            "syntheticType" : "NON_SYNTHETIC",
+            "entityType" : "ENDPOINT"
+          },
+          "physicalContext" : {
+            "process" : {
+              "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+              "time" : 1614785071000,
+              "label" : "payment",
+              "plugin" : "pythonRuntimePlatform",
+              "data" : null
+            },
+            "container" : {
+              "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+              "time" : 1614785086000,
+              "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+              "plugin" : "docker",
+              "data" : null
+            },
+            "host" : {
+              "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+              "time" : 1614785173000,
+              "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+              "plugin" : "host",
+              "data" : {
+                "cpu.count" : 4,
+                "os.name" : "Linux",
+                "memory.total" : 15738195968
+              }
+            }
+          }
+        },
+        "destination" : {
+          "applications" : [ {
+            "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+            "label" : "All Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+            "label" : "robot-shop with frontend",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+            "label" : "Payment Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "Tg3WNRsgRKuKlZ-2puvYHA",
+            "label" : "The Only Real Dev Language",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          } ],
+          "service" : {
+            "id" : "12dea96fec20593566ab75692c9949596833adc9",
+            "label" : "user",
+            "types" : [ ],
+            "technologies" : [ ],
+            "entityType" : "SERVICE"
+          },
+          "endpoint" : {
+            "id" : "Ld9_AnwFzmwpwnlRUh7UIH1sGQU",
+            "label" : "GET /check/:id",
+            "type" : "HTTP",
+            "serviceId" : "",
+            "technologies" : [ ],
+            "syntheticType" : "NON_SYNTHETIC",
+            "entityType" : "ENDPOINT"
+          },
+          "physicalContext" : {
+            "process" : {
+              "id" : "TEvv2HeTssKBtWs2OPz9Q7G16no",
+              "time" : 1614785414000,
+              "label" : "user v1.0.0",
+              "plugin" : "nodeJsRuntimePlatform",
+              "data" : null
+            },
+            "container" : {
+              "id" : "3bXYFCmVcnmujSGyJ6cSGHicQRg",
+              "time" : 1614785120000,
+              "label" : "user (robot-shop/user-77554dc6c9-76n8z)",
+              "plugin" : "docker",
+              "data" : null
+            },
+            "host" : {
+              "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+              "time" : 1614785173000,
+              "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+              "plugin" : "host",
+              "data" : {
+                "cpu.count" : 4,
+                "os.name" : "Linux",
+                "memory.total" : 15738195968
+              }
+            }
+          }
+        },
+        "stackTrace" : [ ],
+        "childSpans" : [ {
+          "id" : "ea6bedfca43c32b8",
+          "parentId" : "a04bb75ec26384c0",
+          "callId" : "ea6bedfca43c32b8",
+          "name" : "mongo",
+          "label" : "find",
+          "start" : 1616298706472,
+          "duration" : 1,
+          "calculatedSelfTime" : 1,
+          "errorCount" : 0,
+          "batchSize" : 1,
+          "batchSelfTime" : 1,
+          "kind" : "EXIT",
+          "isSynthetic" : false,
+          "data" : {
+            "mongo" : {
+              "filter" : "{\"name\":\"anonymous-948858\"}",
+              "service" : "mongodb:27017",
+              "namespace" : "users.users",
+              "command" : "find"
+            },
+            "peer" : {
+              "hostname" : "mongodb",
+              "port" : 27017
+            }
+          },
+          "source" : {
+            "applications" : [ {
+              "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+              "label" : "robot-shop with frontend",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+              "label" : "Payment Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "Tg3WNRsgRKuKlZ-2puvYHA",
+              "label" : "The Only Real Dev Language",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+              "label" : "All Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            } ],
+            "service" : {
+              "id" : "12dea96fec20593566ab75692c9949596833adc9",
+              "label" : "user",
+              "types" : [ ],
+              "technologies" : [ ],
+              "entityType" : "SERVICE"
+            },
+            "endpoint" : {
+              "id" : "Ld9_AnwFzmwpwnlRUh7UIH1sGQU",
+              "label" : "GET /check/:id",
+              "type" : "HTTP",
+              "serviceId" : "",
+              "technologies" : [ ],
+              "syntheticType" : "NON_SYNTHETIC",
+              "entityType" : "ENDPOINT"
+            },
+            "physicalContext" : {
+              "process" : {
+                "id" : "TEvv2HeTssKBtWs2OPz9Q7G16no",
+                "time" : 1614785414000,
+                "label" : "user v1.0.0",
+                "plugin" : "nodeJsRuntimePlatform",
+                "data" : null
+              },
+              "container" : {
+                "id" : "3bXYFCmVcnmujSGyJ6cSGHicQRg",
+                "time" : 1614785120000,
+                "label" : "user (robot-shop/user-77554dc6c9-76n8z)",
+                "plugin" : "docker",
+                "data" : null
+              },
+              "host" : {
+                "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+                "time" : 1614785173000,
+                "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+                "plugin" : "host",
+                "data" : {
+                  "cpu.count" : 4,
+                  "os.name" : "Linux",
+                  "memory.total" : 15738195968
+                }
+              }
+            }
+          },
+          "destination" : {
+            "applications" : [ {
+              "id" : "z4ngd0fVTpiPelE-2zsCzw",
+              "label" : "Databases",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "Tg3WNRsgRKuKlZ-2puvYHA",
+              "label" : "The Only Real Dev Language",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+              "label" : "All Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+              "label" : "robot-shop with frontend",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+              "label" : "Payment Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            } ],
+            "service" : {
+              "id" : "fa11441cb636961bfcb54dd54a4373555b3e8ac9",
+              "label" : "users",
+              "types" : [ ],
+              "technologies" : [ ],
+              "entityType" : "SERVICE"
+            },
+            "endpoint" : {
+              "id" : "im7LLBKJ9qfMeagljSlUHL-laZs",
+              "label" : "users.users",
+              "type" : "DATABASE",
+              "serviceId" : "",
+              "technologies" : [ ],
+              "syntheticType" : "NON_SYNTHETIC",
+              "entityType" : "ENDPOINT"
+            },
+            "physicalContext" : {
+              "cluster" : {
+                "id" : "qpKyLzssb2BYvnzziXfTcyTZt-Q",
+                "time" : 1613211545000,
+                "label" : "mongodb",
+                "plugin" : "kubernetesService",
+                "data" : null
+              }
+            }
+          },
+          "stackTrace" : [ {
+            "file" : "/opt/server/node_modules/@instana/core/src/tracing/instrumentation/database/mongodb.js",
+            "method" : "Pool.write",
+            "line" : "47"
+          }, {
+            "file" : "/opt/server/node_modules/mongodb/lib/core/wireprotocol/command.js",
+            "method" : "_command",
+            "line" : "120"
+          }, {
+            "file" : "/opt/server/node_modules/mongodb/lib/core/wireprotocol/command.js",
+            "method" : "command",
+            "line" : "28"
+          }, {
+            "file" : "/opt/server/node_modules/mongodb/lib/core/wireprotocol/query.js",
+            "method" : "Object.query",
+            "line" : "57"
+          }, {
+            "file" : "/opt/server/node_modules/mongodb/lib/core/topologies/server.js",
+            "method" : "Server.Server.query [as query]",
+            "line" : "644"
+          }, {
+            "file" : "/opt/server/node_modules/mongodb/lib/operations/find.js",
+            "method" : "FindOperation.execute",
+            "line" : "30"
+          }, {
+            "file" : "/opt/server/node_modules/mongodb/lib/operations/execute_operation.js",
+            "method" : "topology.selectServer",
+            "line" : "151"
+          }, {
+            "file" : "/opt/server/node_modules/mongodb/lib/core/topologies/server.js",
+            "method" : "Server.Server.selectServer [as selectServer]",
+            "line" : "832"
+          }, {
+            "file" : "/opt/server/node_modules/mongodb/lib/topologies/topology_base.js",
+            "method" : "Server.selectServer",
+            "line" : "342"
+          }, {
+            "file" : "/opt/server/node_modules/mongodb/lib/operations/execute_operation.js",
+            "method" : "executeWithServerSelection",
+            "line" : "137"
+          } ],
+          "childSpans" : [ ]
+        } ]
+      } ]
+    }, {
+      "id" : "91985b4c1a44e2a5",
+      "parentId" : "4d1936482b0265a7",
+      "callId" : "91985b4c1a44e2a5",
+      "name" : "sdk",
+      "label" : "queueOrder",
+      "start" : 1616298706476,
+      "duration" : 1,
+      "calculatedSelfTime" : 0,
+      "errorCount" : 0,
+      "batchSize" : 1,
+      "batchSelfTime" : 1,
+      "kind" : "INTERMEDIATE",
+      "isSynthetic" : false,
+      "data" : {
+        "service" : "payment",
+        "sdk" : {
+          "custom" : {
+            "logs" : [ {
+              "key_values" : {
+                "orderid" : "cf4a90ea-f918-47cf-9970-f185aee65997"
+              },
+              "timestamp" : 1.6162987064758E9
+            } ],
+            "tags" : {
+              "exchange" : "robot-shop",
+              "key" : "orders",
+              "span" : {
+                "kind" : "intermediate"
+              }
+            }
+          },
+          "name" : "queueOrder",
+          "type" : "intermediate"
+        }
+      },
+      "source" : {
+        "applications" : [ {
+          "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+          "label" : "All Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+          "label" : "Payment Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+          "label" : "robot-shop with frontend",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        } ],
+        "service" : {
+          "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+          "label" : "payment",
+          "types" : [ ],
+          "technologies" : [ ],
+          "entityType" : "SERVICE"
+        },
+        "endpoint" : {
+          "id" : "TVNRYn4HO9xIJSNQy-IvDQZhfp4",
+          "label" : "POST /pay/{id}",
+          "type" : "INTERNAL",
+          "serviceId" : "",
+          "technologies" : [ ],
+          "syntheticType" : "NON_SYNTHETIC",
+          "entityType" : "ENDPOINT"
+        },
+        "physicalContext" : {
+          "process" : {
+            "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+            "time" : 1614785071000,
+            "label" : "payment",
+            "plugin" : "pythonRuntimePlatform",
+            "data" : null
+          },
+          "container" : {
+            "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+            "time" : 1614785086000,
+            "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+            "plugin" : "docker",
+            "data" : null
+          },
+          "host" : {
+            "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+            "time" : 1614785173000,
+            "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+            "plugin" : "host",
+            "data" : {
+              "cpu.count" : 4,
+              "os.name" : "Linux",
+              "memory.total" : 15738195968
+            }
+          }
+        }
+      },
+      "destination" : {
+        "applications" : [ {
+          "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+          "label" : "robot-shop with frontend",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+          "label" : "All Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+          "label" : "Payment Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        } ],
+        "service" : {
+          "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+          "label" : "payment",
+          "types" : [ ],
+          "technologies" : [ ],
+          "entityType" : "SERVICE"
+        },
+        "endpoint" : {
+          "id" : "TVNRYn4HO9xIJSNQy-IvDQZhfp4",
+          "label" : "POST /pay/{id}",
+          "type" : "INTERNAL",
+          "serviceId" : "",
+          "technologies" : [ ],
+          "syntheticType" : "NON_SYNTHETIC",
+          "entityType" : "ENDPOINT"
+        },
+        "physicalContext" : {
+          "process" : {
+            "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+            "time" : 1614785071000,
+            "label" : "payment",
+            "plugin" : "pythonRuntimePlatform",
+            "data" : null
+          },
+          "container" : {
+            "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+            "time" : 1614785086000,
+            "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+            "plugin" : "docker",
+            "data" : null
+          },
+          "host" : {
+            "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+            "time" : 1614785173000,
+            "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+            "plugin" : "host",
+            "data" : {
+              "cpu.count" : 4,
+              "os.name" : "Linux",
+              "memory.total" : 15738195968
+            }
+          }
+        }
+      },
+      "stackTrace" : [ ],
+      "childSpans" : [ {
+        "id" : "0a4520191e4d6352",
+        "parentId" : "91985b4c1a44e2a5",
+        "callId" : "0a4520191e4d6352",
+        "name" : "rabbitmq",
+        "label" : "Send to robot-shop",
+        "start" : 1616298706476,
+        "duration" : 1,
+        "calculatedSelfTime" : 1,
+        "errorCount" : 0,
+        "batchSize" : 1,
+        "batchSelfTime" : 1,
+        "kind" : "ENTRY",
+        "isSynthetic" : false,
+        "data" : {
+          "rabbitmq" : {
+            "address" : "rabbitmq",
+            "exchange" : "robot-shop",
+            "sort" : "publish",
+            "key" : "orders"
+          }
+        },
+        "source" : {
+          "applications" : [ {
+            "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+            "label" : "Payment Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+            "label" : "robot-shop with frontend",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+            "label" : "All Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          } ],
+          "service" : {
+            "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+            "label" : "payment",
+            "types" : [ ],
+            "technologies" : [ ],
+            "entityType" : "SERVICE"
+          },
+          "endpoint" : {
+            "id" : "TVNRYn4HO9xIJSNQy-IvDQZhfp4",
+            "label" : "POST /pay/{id}",
+            "type" : "HTTP",
+            "serviceId" : "",
+            "technologies" : [ ],
+            "syntheticType" : "NON_SYNTHETIC",
+            "entityType" : "ENDPOINT"
+          },
+          "physicalContext" : {
+            "process" : {
+              "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+              "time" : 1614785071000,
+              "label" : "payment",
+              "plugin" : "pythonRuntimePlatform",
+              "data" : null
+            },
+            "container" : {
+              "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+              "time" : 1614785086000,
+              "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+              "plugin" : "docker",
+              "data" : null
+            },
+            "host" : {
+              "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+              "time" : 1614785173000,
+              "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+              "plugin" : "host",
+              "data" : {
+                "cpu.count" : 4,
+                "os.name" : "Linux",
+                "memory.total" : 15738195968
+              }
+            }
+          }
+        },
+        "destination" : {
+          "applications" : [ {
+            "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+            "label" : "All Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+            "label" : "robot-shop with frontend",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+            "label" : "Payment Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          } ],
+          "service" : {
+            "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+            "label" : "payment",
+            "types" : [ ],
+            "technologies" : [ ],
+            "entityType" : "SERVICE"
+          },
+          "endpoint" : {
+            "id" : "NIJdG1UOlN8BSCSTJsW8QqFrarw",
+            "label" : "robot-shop",
+            "type" : "MESSAGING",
+            "serviceId" : "",
+            "technologies" : [ ],
+            "syntheticType" : "NON_SYNTHETIC",
+            "entityType" : "ENDPOINT"
+          },
+          "physicalContext" : {
+            "process" : {
+              "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+              "time" : 1614785071000,
+              "label" : "payment",
+              "plugin" : "pythonRuntimePlatform",
+              "data" : null
+            },
+            "container" : {
+              "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+              "time" : 1614785086000,
+              "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+              "plugin" : "docker",
+              "data" : null
+            },
+            "host" : {
+              "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+              "time" : 1614785173000,
+              "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+              "plugin" : "host",
+              "data" : {
+                "cpu.count" : 4,
+                "os.name" : "Linux",
+                "memory.total" : 15738195968
+              }
+            }
+          }
+        },
+        "stackTrace" : [ {
+          "file" : "payment.py",
+          "method" : "queueOrder",
+          "line" : "144"
+        }, {
+          "file" : "payment.py",
+          "method" : "pay",
+          "line" : "99"
+        }, {
+          "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+          "method" : "dispatch_request",
+          "line" : "1936"
+        }, {
+          "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+          "method" : "full_dispatch_request",
+          "line" : "1950"
+        }, {
+          "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+          "method" : "wsgi_app",
+          "line" : "2447"
+        }, {
+          "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+          "method" : "__call__",
+          "line" : "2464"
+        } ],
+        "childSpans" : [ {
+          "id" : "7cc19b08bef4c83b",
+          "parentId" : "0a4520191e4d6352",
+          "callId" : "7cc19b08bef4c83b",
+          "name" : "sdk.messaging",
+          "label" : "robot-shop",
+          "start" : 1616298706477,
+          "duration" : 142,
+          "calculatedSelfTime" : 142,
+          "errorCount" : 0,
+          "batchSize" : 1,
+          "batchSelfTime" : 142,
+          "kind" : "ENTRY",
+          "isSynthetic" : false,
+          "data" : {
+            "service" : "dispatch",
+            "sdk" : {
+              "custom" : {
+                "logs" : {
+                  "1616298706477" : {
+                    "orderid" : "cf4a90ea-f918-47cf-9970-f185aee65997"
+                  }
+                },
+                "tags" : {
+                  "message_bus" : {
+                    "destination" : "robot-shop"
+                  },
+                  "address" : "rabbitmq",
+                  "exchange" : "robot-shop",
+                  "sort" : "consume",
+                  "key" : "orders",
+                  "span" : {
+                    "kind" : "consumer"
+                  }
+                }
+              },
+              "name" : "getOrder",
+              "type" : "entry"
+            },
+            "messaging" : {
+              "address" : "robot-shop"
+            }
+          },
+          "source" : {
+            "applications" : [ {
+              "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+              "label" : "Payment Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+              "label" : "robot-shop with frontend",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+              "label" : "All Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            } ],
+            "service" : {
+              "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+              "label" : "payment",
+              "types" : [ ],
+              "technologies" : [ ],
+              "entityType" : "SERVICE"
+            },
+            "endpoint" : {
+              "id" : "NIJdG1UOlN8BSCSTJsW8QqFrarw",
+              "label" : "robot-shop",
+              "type" : "MESSAGING",
+              "serviceId" : "",
+              "technologies" : [ ],
+              "syntheticType" : "NON_SYNTHETIC",
+              "entityType" : "ENDPOINT"
+            },
+            "physicalContext" : {
+              "process" : {
+                "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+                "time" : 1614785071000,
+                "label" : "payment",
+                "plugin" : "pythonRuntimePlatform",
+                "data" : null
+              },
+              "container" : {
+                "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+                "time" : 1614785086000,
+                "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+                "plugin" : "docker",
+                "data" : null
+              },
+              "host" : {
+                "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+                "time" : 1614785173000,
+                "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+                "plugin" : "host",
+                "data" : {
+                  "cpu.count" : 4,
+                  "os.name" : "Linux",
+                  "memory.total" : 15738195968
+                }
+              }
+            }
+          },
+          "destination" : {
+            "applications" : [ {
+              "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+              "label" : "Payment Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+              "label" : "All Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+              "label" : "robot-shop with frontend",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            } ],
+            "service" : {
+              "id" : "05b145cfb6fbc24d08a8e01155c0aa2bf8460c87",
+              "label" : "dispatch",
+              "types" : [ ],
+              "technologies" : [ ],
+              "entityType" : "SERVICE"
+            },
+            "endpoint" : {
+              "id" : "murzTwzJlGyqc_CFtEKx8INVCfY",
+              "label" : "robot-shop",
+              "type" : "MESSAGING",
+              "serviceId" : "",
+              "technologies" : [ ],
+              "syntheticType" : "NON_SYNTHETIC",
+              "entityType" : "ENDPOINT"
+            },
+            "physicalContext" : {
+              "process" : {
+                "id" : "rfw2R1q0H5nSZR9sb72K1AByTw0",
+                "time" : 1615868991000,
+                "label" : "dispatch",
+                "plugin" : "golangRuntimePlatform",
+                "data" : null
+              },
+              "container" : {
+                "id" : "q9WuxN51Q_1mMVU0fuRQFDiot6w",
+                "time" : 1615868959000,
+                "label" : "dispatch (robot-shop/dispatch-85dd5f8774-79779)",
+                "plugin" : "docker",
+                "data" : null
+              },
+              "host" : {
+                "id" : "ydjwAQ1tKN1ZO8UhIajthQR9KxA",
+                "time" : 1615869043000,
+                "label" : "gke-public-demo-cluster-default-pool-19f00190-pzv0.c.peppy-vertex-158106.internal",
+                "plugin" : "host",
+                "data" : {
+                  "cpu.count" : 4,
+                  "os.name" : "Linux",
+                  "memory.total" : 15738195968
+                }
+              }
+            }
+          },
+          "stackTrace" : [ ],
+          "childSpans" : [ {
+            "id" : "47af4496a103decd",
+            "parentId" : "7cc19b08bef4c83b",
+            "callId" : "47af4496a103decd",
+            "name" : "sdk",
+            "label" : "processSale",
+            "start" : 1616298706561,
+            "duration" : 58,
+            "calculatedSelfTime" : 58,
+            "errorCount" : 0,
+            "batchSize" : 1,
+            "batchSelfTime" : 58,
+            "kind" : "INTERMEDIATE",
+            "isSynthetic" : false,
+            "data" : {
+              "service" : "dispatch",
+              "sdk" : {
+                "custom" : {
+                  "logs" : {
+                    "1616298706561" : {
+                      "info" : "Order sent for processing"
+                    }
+                  },
+                  "tags" : {
+                    "span" : {
+                      "kind" : "intermediate"
+                    }
+                  }
+                },
+                "name" : "processSale",
+                "type" : "intermediate"
+              }
+            },
+            "source" : {
+              "applications" : [ {
+                "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+                "label" : "Payment Services",
+                "boundaryScope" : "INBOUND",
+                "entityType" : "APPLICATION"
+              }, {
+                "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+                "label" : "robot-shop with frontend",
+                "boundaryScope" : "INBOUND",
+                "entityType" : "APPLICATION"
+              }, {
+                "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+                "label" : "All Services",
+                "boundaryScope" : "INBOUND",
+                "entityType" : "APPLICATION"
+              } ],
+              "service" : {
+                "id" : "05b145cfb6fbc24d08a8e01155c0aa2bf8460c87",
+                "label" : "dispatch",
+                "types" : [ ],
+                "technologies" : [ ],
+                "entityType" : "SERVICE"
+              },
+              "endpoint" : {
+                "id" : "murzTwzJlGyqc_CFtEKx8INVCfY",
+                "label" : "robot-shop",
+                "type" : "INTERNAL",
+                "serviceId" : "",
+                "technologies" : [ ],
+                "syntheticType" : "NON_SYNTHETIC",
+                "entityType" : "ENDPOINT"
+              },
+              "physicalContext" : {
+                "process" : {
+                  "id" : "rfw2R1q0H5nSZR9sb72K1AByTw0",
+                  "time" : 1615868991000,
+                  "label" : "dispatch",
+                  "plugin" : "golangRuntimePlatform",
+                  "data" : null
+                },
+                "container" : {
+                  "id" : "q9WuxN51Q_1mMVU0fuRQFDiot6w",
+                  "time" : 1615868959000,
+                  "label" : "dispatch (robot-shop/dispatch-85dd5f8774-79779)",
+                  "plugin" : "docker",
+                  "data" : null
+                },
+                "host" : {
+                  "id" : "ydjwAQ1tKN1ZO8UhIajthQR9KxA",
+                  "time" : 1615869043000,
+                  "label" : "gke-public-demo-cluster-default-pool-19f00190-pzv0.c.peppy-vertex-158106.internal",
+                  "plugin" : "host",
+                  "data" : {
+                    "cpu.count" : 4,
+                    "os.name" : "Linux",
+                    "memory.total" : 15738195968
+                  }
+                }
+              }
+            },
+            "destination" : {
+              "applications" : [ {
+                "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+                "label" : "All Services",
+                "boundaryScope" : "INBOUND",
+                "entityType" : "APPLICATION"
+              }, {
+                "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+                "label" : "Payment Services",
+                "boundaryScope" : "INBOUND",
+                "entityType" : "APPLICATION"
+              }, {
+                "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+                "label" : "robot-shop with frontend",
+                "boundaryScope" : "INBOUND",
+                "entityType" : "APPLICATION"
+              } ],
+              "service" : {
+                "id" : "05b145cfb6fbc24d08a8e01155c0aa2bf8460c87",
+                "label" : "dispatch",
+                "types" : [ ],
+                "technologies" : [ ],
+                "entityType" : "SERVICE"
+              },
+              "endpoint" : {
+                "id" : "murzTwzJlGyqc_CFtEKx8INVCfY",
+                "label" : "robot-shop",
+                "type" : "INTERNAL",
+                "serviceId" : "",
+                "technologies" : [ ],
+                "syntheticType" : "NON_SYNTHETIC",
+                "entityType" : "ENDPOINT"
+              },
+              "physicalContext" : {
+                "process" : {
+                  "id" : "rfw2R1q0H5nSZR9sb72K1AByTw0",
+                  "time" : 1615868991000,
+                  "label" : "dispatch",
+                  "plugin" : "golangRuntimePlatform",
+                  "data" : null
+                },
+                "container" : {
+                  "id" : "q9WuxN51Q_1mMVU0fuRQFDiot6w",
+                  "time" : 1615868959000,
+                  "label" : "dispatch (robot-shop/dispatch-85dd5f8774-79779)",
+                  "plugin" : "docker",
+                  "data" : null
+                },
+                "host" : {
+                  "id" : "ydjwAQ1tKN1ZO8UhIajthQR9KxA",
+                  "time" : 1615869043000,
+                  "label" : "gke-public-demo-cluster-default-pool-19f00190-pzv0.c.peppy-vertex-158106.internal",
+                  "plugin" : "host",
+                  "data" : {
+                    "cpu.count" : 4,
+                    "os.name" : "Linux",
+                    "memory.total" : 15738195968
+                  }
+                }
+              }
+            },
+            "stackTrace" : [ ],
+            "childSpans" : [ ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "id" : "267c485f1a528d18",
+      "parentId" : "4d1936482b0265a7",
+      "callId" : "b01503b9afb14b1b",
+      "name" : "urllib3",
+      "label" : "DELETE /cart/anonymous-948858",
+      "start" : 1616298706479,
+      "duration" : 6,
+      "calculatedSelfTime" : 5,
+      "errorCount" : 0,
+      "batchSize" : 1,
+      "batchSelfTime" : 6,
+      "kind" : "EXIT",
+      "isSynthetic" : false,
+      "data" : {
+        "http" : {
+          "path" : "/cart/anonymous-948858",
+          "protocol" : "http",
+          "method" : "DELETE",
+          "host" : "cart:8080",
+          "url" : "http://cart:8080/cart/anonymous-948858",
+          "status" : 200
+        }
+      },
+      "source" : {
+        "applications" : [ {
+          "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+          "label" : "robot-shop with frontend",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+          "label" : "All Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+          "label" : "Payment Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        } ],
+        "service" : {
+          "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+          "label" : "payment",
+          "types" : [ ],
+          "technologies" : [ ],
+          "entityType" : "SERVICE"
+        },
+        "endpoint" : {
+          "id" : "TVNRYn4HO9xIJSNQy-IvDQZhfp4",
+          "label" : "POST /pay/{id}",
+          "type" : "HTTP",
+          "serviceId" : "",
+          "technologies" : [ ],
+          "syntheticType" : "NON_SYNTHETIC",
+          "entityType" : "ENDPOINT"
+        },
+        "physicalContext" : {
+          "process" : {
+            "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+            "time" : 1614785071000,
+            "label" : "payment",
+            "plugin" : "pythonRuntimePlatform",
+            "data" : null
+          },
+          "container" : {
+            "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+            "time" : 1614785086000,
+            "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+            "plugin" : "docker",
+            "data" : null
+          },
+          "host" : {
+            "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+            "time" : 1614785173000,
+            "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+            "plugin" : "host",
+            "data" : {
+              "cpu.count" : 4,
+              "os.name" : "Linux",
+              "memory.total" : 15738195968
+            }
+          }
+        }
+      },
+      "destination" : {
+        "applications" : [ {
+          "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+          "label" : "Payment Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "Tg3WNRsgRKuKlZ-2puvYHA",
+          "label" : "The Only Real Dev Language",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+          "label" : "All Services",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        }, {
+          "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+          "label" : "robot-shop with frontend",
+          "boundaryScope" : "INBOUND",
+          "entityType" : "APPLICATION"
+        } ],
+        "service" : {
+          "id" : "8bfb4e1aa590eab8f08f837b97acf5803a5737ed",
+          "label" : "cart",
+          "types" : [ ],
+          "technologies" : [ ],
+          "entityType" : "SERVICE"
+        },
+        "endpoint" : {
+          "id" : "79PCJcu-z0eMZAxWu4mW5HNgKYU",
+          "label" : "DELETE /cart/:id",
+          "type" : "HTTP",
+          "serviceId" : "",
+          "technologies" : [ ],
+          "syntheticType" : "NON_SYNTHETIC",
+          "entityType" : "ENDPOINT"
+        },
+        "physicalContext" : {
+          "process" : {
+            "id" : "38shRkGvjmg2FvgC5OtUIMnKPLI",
+            "time" : 1614785374000,
+            "label" : "cart v1.0.0",
+            "plugin" : "nodeJsRuntimePlatform",
+            "data" : null
+          },
+          "container" : {
+            "id" : "WBnw8lMXd8RH4GISRzeZ3t959TU",
+            "time" : 1614785026000,
+            "label" : "cart (robot-shop/cart-db54c9fff-dfftj)",
+            "plugin" : "docker",
+            "data" : null
+          },
+          "host" : {
+            "id" : "tVGHwu-3yjOdvCaVFbW46lqIGf0",
+            "time" : 1615868984000,
+            "label" : "gke-public-demo-cluster-default-pool-19f00190-pz91.c.peppy-vertex-158106.internal",
+            "plugin" : "host",
+            "data" : {
+              "cpu.count" : 4,
+              "os.name" : "Linux",
+              "memory.total" : 15738195968
+            }
+          }
+        }
+      },
+      "stackTrace" : [ {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/adapters.py",
+        "method" : "send",
+        "line" : "449"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/sessions.py",
+        "method" : "send",
+        "line" : "643"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/sessions.py",
+        "method" : "request",
+        "line" : "530"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/api.py",
+        "method" : "request",
+        "line" : "61"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/requests/api.py",
+        "method" : "delete",
+        "line" : "161"
+      }, {
+        "file" : "payment.py",
+        "method" : "pay",
+        "line" : "114"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+        "method" : "dispatch_request",
+        "line" : "1936"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+        "method" : "full_dispatch_request",
+        "line" : "1950"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+        "method" : "wsgi_app",
+        "line" : "2447"
+      }, {
+        "file" : "/usr/local/lib/python3.6/site-packages/flask/app.py",
+        "method" : "__call__",
+        "line" : "2464"
+      } ],
+      "childSpans" : [ {
+        "id" : "b01503b9afb14b1b",
+        "parentId" : "267c485f1a528d18",
+        "callId" : "b01503b9afb14b1b",
+        "name" : "node.http.server",
+        "label" : "DELETE /cart/anonymous-948858",
+        "start" : 1616298706483,
+        "duration" : 1,
+        "calculatedSelfTime" : 1,
+        "errorCount" : 0,
+        "batchSize" : 1,
+        "batchSelfTime" : 1,
+        "kind" : "ENTRY",
+        "isSynthetic" : false,
+        "data" : {
+          "http" : {
+            "rawUrl" : "/cart/anonymous-948858",
+            "path" : "/cart/anonymous-948858",
+            "method" : "DELETE",
+            "host" : "cart:8080",
+            "header" : {
+              "accept" : "*/*",
+              "user-agent" : "python-requests/2.23.0"
+            },
+            "path_tpl" : "/cart/:id",
+            "status" : 200
+          }
+        },
+        "source" : {
+          "applications" : [ {
+            "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+            "label" : "robot-shop with frontend",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+            "label" : "Payment Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+            "label" : "All Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          } ],
+          "service" : {
+            "id" : "e86256b2787ee7ff0c33d0d4c6159cd922227b79",
+            "label" : "payment",
+            "types" : [ ],
+            "technologies" : [ ],
+            "entityType" : "SERVICE"
+          },
+          "endpoint" : {
+            "id" : "TVNRYn4HO9xIJSNQy-IvDQZhfp4",
+            "label" : "POST /pay/{id}",
+            "type" : "HTTP",
+            "serviceId" : "",
+            "technologies" : [ ],
+            "syntheticType" : "NON_SYNTHETIC",
+            "entityType" : "ENDPOINT"
+          },
+          "physicalContext" : {
+            "process" : {
+              "id" : "OXEGO_rZ5w52fm5ZLZO6xYEXOfg",
+              "time" : 1614785071000,
+              "label" : "payment",
+              "plugin" : "pythonRuntimePlatform",
+              "data" : null
+            },
+            "container" : {
+              "id" : "HaZHl4Aelk86uRvN5xXa9JatYPQ",
+              "time" : 1614785086000,
+              "label" : "payment (robot-shop/payment-547bcf8d57-cp5b2)",
+              "plugin" : "docker",
+              "data" : null
+            },
+            "host" : {
+              "id" : "pyQYEmqEVhQTai_Op-3V7GcoHwE",
+              "time" : 1614785173000,
+              "label" : "gke-public-demo-cluster-default-pool-19f00190-ofwz.c.peppy-vertex-158106.internal",
+              "plugin" : "host",
+              "data" : {
+                "cpu.count" : 4,
+                "os.name" : "Linux",
+                "memory.total" : 15738195968
+              }
+            }
+          }
+        },
+        "destination" : {
+          "applications" : [ {
+            "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+            "label" : "Payment Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+            "label" : "All Services",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "Tg3WNRsgRKuKlZ-2puvYHA",
+            "label" : "The Only Real Dev Language",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          }, {
+            "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+            "label" : "robot-shop with frontend",
+            "boundaryScope" : "INBOUND",
+            "entityType" : "APPLICATION"
+          } ],
+          "service" : {
+            "id" : "8bfb4e1aa590eab8f08f837b97acf5803a5737ed",
+            "label" : "cart",
+            "types" : [ ],
+            "technologies" : [ ],
+            "entityType" : "SERVICE"
+          },
+          "endpoint" : {
+            "id" : "79PCJcu-z0eMZAxWu4mW5HNgKYU",
+            "label" : "DELETE /cart/:id",
+            "type" : "HTTP",
+            "serviceId" : "",
+            "technologies" : [ ],
+            "syntheticType" : "NON_SYNTHETIC",
+            "entityType" : "ENDPOINT"
+          },
+          "physicalContext" : {
+            "process" : {
+              "id" : "38shRkGvjmg2FvgC5OtUIMnKPLI",
+              "time" : 1614785374000,
+              "label" : "cart v1.0.0",
+              "plugin" : "nodeJsRuntimePlatform",
+              "data" : null
+            },
+            "container" : {
+              "id" : "WBnw8lMXd8RH4GISRzeZ3t959TU",
+              "time" : 1614785026000,
+              "label" : "cart (robot-shop/cart-db54c9fff-dfftj)",
+              "plugin" : "docker",
+              "data" : null
+            },
+            "host" : {
+              "id" : "tVGHwu-3yjOdvCaVFbW46lqIGf0",
+              "time" : 1615868984000,
+              "label" : "gke-public-demo-cluster-default-pool-19f00190-pz91.c.peppy-vertex-158106.internal",
+              "plugin" : "host",
+              "data" : {
+                "cpu.count" : 4,
+                "os.name" : "Linux",
+                "memory.total" : 15738195968
+              }
+            }
+          }
+        },
+        "stackTrace" : [ ],
+        "childSpans" : [ {
+          "id" : "e866b9562a151245",
+          "parentId" : "b01503b9afb14b1b",
+          "callId" : "e866b9562a151245",
+          "name" : "redis",
+          "label" : "del",
+          "start" : 1616298706483,
+          "duration" : 0,
+          "calculatedSelfTime" : 0,
+          "errorCount" : 0,
+          "batchSize" : 1,
+          "batchSelfTime" : 0,
+          "kind" : "EXIT",
+          "isSynthetic" : false,
+          "data" : {
+            "redis" : {
+              "connection" : "redis:6379",
+              "command" : "del"
+            }
+          },
+          "source" : {
+            "applications" : [ {
+              "id" : "Tg3WNRsgRKuKlZ-2puvYHA",
+              "label" : "The Only Real Dev Language",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+              "label" : "All Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+              "label" : "robot-shop with frontend",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+              "label" : "Payment Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            } ],
+            "service" : {
+              "id" : "8bfb4e1aa590eab8f08f837b97acf5803a5737ed",
+              "label" : "cart",
+              "types" : [ ],
+              "technologies" : [ ],
+              "entityType" : "SERVICE"
+            },
+            "endpoint" : {
+              "id" : "79PCJcu-z0eMZAxWu4mW5HNgKYU",
+              "label" : "DELETE /cart/:id",
+              "type" : "HTTP",
+              "serviceId" : "",
+              "technologies" : [ ],
+              "syntheticType" : "NON_SYNTHETIC",
+              "entityType" : "ENDPOINT"
+            },
+            "physicalContext" : {
+              "process" : {
+                "id" : "38shRkGvjmg2FvgC5OtUIMnKPLI",
+                "time" : 1614785374000,
+                "label" : "cart v1.0.0",
+                "plugin" : "nodeJsRuntimePlatform",
+                "data" : null
+              },
+              "container" : {
+                "id" : "WBnw8lMXd8RH4GISRzeZ3t959TU",
+                "time" : 1614785026000,
+                "label" : "cart (robot-shop/cart-db54c9fff-dfftj)",
+                "plugin" : "docker",
+                "data" : null
+              },
+              "host" : {
+                "id" : "tVGHwu-3yjOdvCaVFbW46lqIGf0",
+                "time" : 1615868984000,
+                "label" : "gke-public-demo-cluster-default-pool-19f00190-pz91.c.peppy-vertex-158106.internal",
+                "plugin" : "host",
+                "data" : {
+                  "cpu.count" : 4,
+                  "os.name" : "Linux",
+                  "memory.total" : 15738195968
+                }
+              }
+            }
+          },
+          "destination" : {
+            "applications" : [ {
+              "id" : "BeEf5eJwRNOmq7KEDE_Wdw",
+              "label" : "Payment Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "z4ngd0fVTpiPelE-2zsCzw",
+              "label" : "Databases",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "y6vWeNLrR0ewhgJ6wfIVQg",
+              "label" : "All Services",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "Tg3WNRsgRKuKlZ-2puvYHA",
+              "label" : "The Only Real Dev Language",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            }, {
+              "id" : "7Tq4Sw3DTLudlCv89QsZEA",
+              "label" : "robot-shop with frontend",
+              "boundaryScope" : "INBOUND",
+              "entityType" : "APPLICATION"
+            } ],
+            "service" : {
+              "id" : "a9bb2fe83b3a1ff2bcaef030dcf01173c1e49c83",
+              "label" : "redis:6379",
+              "types" : [ ],
+              "technologies" : [ ],
+              "entityType" : "SERVICE"
+            },
+            "endpoint" : {
+              "id" : "QVoV2rL3FxZu1REmgpHeA-46_K0",
+              "label" : "del",
+              "type" : "DATABASE",
+              "serviceId" : "",
+              "technologies" : [ ],
+              "syntheticType" : "NON_SYNTHETIC",
+              "entityType" : "ENDPOINT"
+            },
+            "physicalContext" : {
+              "cluster" : {
+                "id" : "CIqjz8PKGQ1FE4JJuxNSyaCFzbU",
+                "time" : 1613211545000,
+                "label" : "redis",
+                "plugin" : "kubernetesService",
+                "data" : null
+              }
+            }
+          },
+          "stackTrace" : [ {
+            "file" : "/opt/server/server.js",
+            "method" : "global.app.delete",
+            "line" : "72"
+          }, {
+            "file" : "/opt/server/node_modules/@instana/core/src/tracing/instrumentation/frameworks/express.js",
+            "method" : "<anonymous>",
+            "line" : "134"
+          }, {
+            "file" : "/opt/server/node_modules/express/lib/router/layer.js",
+            "method" : "Layer.handle [as handle_request]",
+            "line" : "95"
+          }, {
+            "file" : "/opt/server/node_modules/express/lib/router/route.js",
+            "method" : "next",
+            "line" : "137"
+          }, {
+            "file" : "/opt/server/node_modules/express/lib/router/route.js",
+            "method" : "Route.dispatch",
+            "line" : "112"
+          }, {
+            "file" : "/opt/server/node_modules/express/lib/router/layer.js",
+            "method" : "Layer.handle [as handle_request]",
+            "line" : "95"
+          }, {
+            "file" : "/opt/server/node_modules/express/lib/router/index.js",
+            "method" : "<anonymous>",
+            "line" : "281"
+          }, {
+            "file" : "/opt/server/node_modules/express/lib/router/index.js",
+            "method" : "param",
+            "line" : "354"
+          }, {
+            "file" : "/opt/server/node_modules/express/lib/router/index.js",
+            "method" : "param",
+            "line" : "365"
+          }, {
+            "file" : "/opt/server/node_modules/express/lib/router/index.js",
+            "method" : "Function.process_params",
+            "line" : "410"
+          } ],
+          "childSpans" : [ ]
+        } ]
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<script>digitalData = {
+    "page": {
+        "category": [],
+        "pageInfo": {
+            "language": "en-US",
+            "country": "US",
+            "publisher": "IBM Corporation",
+            "version": "v18",
+            "ibm": {
+                "contentDelivery": "Drupal 8",
+                "contentProducer": "2319963 - Page Builder",
+                "owner": "Ken Robertson/Worcester/IBM",
+                "siteID": "DRUPAL",
+                "config": {
+                    "masthead": {
+                        "type": "alternate"
+                    },
+                    "footer": {
+                        "type": "alternate"
+                    }
+                }
+            },
+            "publishDate": "2020-02-11",
+            "effectiveDate": "2020-02-11",
+            "expiryDate": "2024-02-11"
+        }
+    }
+}</script>
+<meta name="geo.country" content="ZZ" />
+<link rel="canonical" href="https://www.ibm.com/services/client-stories/social-security-scotland-aws" />
+<meta name="robots" content="index, follow" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<meta name="rights" content="© Copyright IBM Corporation 2021" />
+<meta name="description" content="Learn how IBM Services helped Social Security Scotland develop new hosting platforms on AWS Cloud." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.ibm.com/services/client-stories/social-security-scotland-aws" />
+<meta property="og:title" content="Social Security Scotland AWS" />
+<meta property="og:description" content="Learn how IBM Services helped Social Security Scotland develop new hosting platforms on AWS Cloud." />
+<meta property="og:image" content="https://1.cms.s81c.com/sites/default/files/2020-02-10/gbs_569-leadsapce.jpg" />
+<meta name="twitter:card" content="summary" />
+<script>cpp = {"path":"\/cloud\/ajax\/product\/{product}"}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Services",
+                        "item": "https://www.ibm.com/services"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Client Stories",
+                        "item": "https://www.ibm.com/services/client-stories"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Social Security Scotland AWS",
+                        "item": "https://www.ibm.com/services/client-stories/social-security-scotland-aws"
+                    }
+                ]
+            }
+        }
+    ]
+}</script>
+<script data-title="Components design metadata">/*
+Leadspace: v18 - standard - gbs-client-stories-social-security-scotland_leadspace
+
+Bands/Sections:
+1. v18 - Cards without Images - Left-aligned - gbs-client-stories-social-security-scotland_results
+2. v18 - Single Asset Promo - Left-aligned - gbs-client-stories-social-security-scotland_about
+3. v18 - Single Asset Promo - Left-aligned - gbs-client-stories-social-security-scotland_problem
+4. v18 - Single Asset Promo - Left-aligned - gbs-client-stories-social-security-scotland_proposed
+5. v18 - Single Asset Promo - Left-aligned - gbs-client-stories-social-security-scotland_solution
+6. v18 - Single Asset Promo - Left-aligned - gbs-client-stories-social-security-scotland_results_part1
+7. v18 - Cards without Images - Left-aligned - gbs-client-stories-social-security-scotland_results_part2
+8. v18 - Single Asset Promo - Left-aligned - gbs-client-stories-social-security-scotland_results_part3
+9. v18 - Single Asset Promo - Left-aligned - gbs-client-stories-social-security-scotland_aws
+10. v18 - Single Asset Promo - Left-aligned - gbs-contact-band-new_SHARED
+11. v18 - Social Following - gbs-social-band_SHARED
+
+*/</script>
+<link rel="alternate" hreflang="en-us" href="https://www.ibm.com/services/client-stories/social-security-scotland-aws" />
+<link rel="revision" href="https://www.ibm.com/services/client-stories/social-security-scotland-aws" />
+
+    <title>Social Security Scotland AWS | IBM</title>
+    <link rel='dns-prefetch' href='//1.www.s81c.com' />
+<link rel='preconnect' href='//1.www.s81c.com' />
+    <link href="//1.www.s81c.com/common/v18/drupal/css/www.css" rel="preload" as="style"  />
+    <link rel="stylesheet" href="//1.www.s81c.com/common/v18/drupal/css/www.css" media="all" />
+<link href="//1.www.s81c.com/common/v18/drupal/css/grid-fluid.css" rel="preload" as="style"  />
+<link rel="stylesheet" href="//1.www.s81c.com/common/v18/drupal/css/grid-fluid.css" media="all" />
+<link href="//1.www.s81c.com/common/v18/drupal/css/tables.css" rel="preload" as="style"  />
+<link rel="stylesheet" href="//1.www.s81c.com/common/v18/drupal/css/tables.css" media="all" />
+<link rel="preload" href="//1.www.s81c.com/common/fonts/plex/v1/ibmplexsans-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="//1.www.s81c.com/common/fonts/plex/v1/ibmplexsans-regularitalic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="//1.www.s81c.com/common/fonts/plex/v1/ibmplexsans-semibold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="//1.www.s81c.com/common/fonts/icons-ibm-v12.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="//1.www.s81c.com/common/fonts/plex/v1/ibmplexsans-light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" media="all" href="//1.cms.s81c.com/sites/default/files/css/css_OBACM-MJeRMg9UtX_o5STRWc0yToWEyLoJTPmhsix5A.css" />
+<link rel="stylesheet" media="all" href="//1.cms.s81c.com/sites/default/files/css/css_1k6rFUr7hg2r-jkO9y-Ss8slZTU9JvvDhviBUI1pAPE.css" />
+<link rel="stylesheet" media="all" href="//1.www.s81c.com/common/v18/drupal/css/textcolumns.css" />
+
+<!--[if IE]>
+<link rel="stylesheet" media="all" href="//1.cms.s81c.com/sites/default/files/css/css_h4W4n391TmovAELXriFpskw_X0uFhuG-NOVw6WSCCzA.css" />
+<![endif]-->
+
+    <script src="//1.www.s81c.com/common/stats/ibm-common.js"></script>
+<script src="//1.www.s81c.com/common/v18/drupal/js/www.js" defer></script>
+
+    <noscript>
+      <link rel="stylesheet" type="text/css" href="//1.cms.s81c.com/modules/contrib/hc_fractal/dist/css/no-js.css" />
+    </noscript>
+  
+  <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"","rua.texp":""}]);</script>
+                          <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="RZ9BF-Q8B8S-KWKWC-GU4VC-KX76E",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"RZ9BF-Q8B8S-KWKWC-GU4VC-KX76E",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="cookiepresent",n="c7cc4zixgab2yyc64gsa-f-354d0a7a7-clientnsv4-s.akamaihd.net",i={"ak.v":"31","ak.cp":"501351","ak.ai":parseInt("328156",10),"ak.ol":"0","ak.cr":0,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"43e079dd","ak.r":38693,"ak.a2":e,"ak.m":"dscx","ak.n":"essl","ak.bpcip":"2600:8800:3904:d300::","ak.cport":55127,"ak.gh":"172.232.44.141","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1616830884","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==FoIn9+G+eG8yyZezv3OtiClUdQhuy4uzvt1BAoZFns0C7puE/ZtettJenS0BvlPuv9RAFk5h0lhQOZlAo+ZlIb8eeiq/g7PKFxvOdzsXhXpY07R9RKUF7q+TWh0JmnV5cbz/UaUDfqK/CdVZAPMUGYGfCcErFXSeXphcigHUJ6em0oVbD91CN72wI22yhlF3sACw6FZAgUifmj0WnBQUWzkCCMsP/6KhxLwOhS1rahUljuYKJFzfLSd4kl7ccWV54LdysOfF+kjdzeJYYts74cZeM+ovbZFILpHqCMFWygLfxcRhxv+082dSmQKKuRLlFaN0DqJX0eEjiQ2hcu7NDKZK0/REVmc/D5T8aPlbHGNy/ADnVcRu4VHDIjTXlUvXMioR9vZi4x4+TfIsPpggFiDdPoaa7TF929XOOZop+Us=","ak.pv":"118","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var _={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!_.i){var a=BOOMR.subscribe;a("before_beacon",_.av,null,null),a("onbeacon",_.rv,null,null),_.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+  <body id="ibm-com"  uuid="c3985174-65b9-4222-83a1-3c5dc92f189c" class="path-node page-node-type-page-wrapper ibm-type">
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="ibm-top" class="ibm-landing-page">
+    <div class="region region-masthead">
+    
+
+    
+              
+
+<div id="ibm-masthead" role="banner" aria-label="IBM" data-mhtype="minimal" class="simple  ibm-mhtype-minimal">
+  <div id="ibm-universal-nav">
+    <nav role="navigation" aria-label="IBM">
+      <div id="ibm-home"><a href="https://www.ibm.com/us/en">IBM®</a></div>
+                    <!-- Site Navigation -->
+              
+      
+      <ul id="ibm-menu-links" role="toolbar" aria-label="Site map">
+        <li><a href="https://www.ibm.com/sitemap/us/en">Site map</a></li>
+      </ul>
+    </nav>
+
+          <div id="ibm-search-module" role="search" aria-labelledby="ibm-masthead">
+        <form id="ibm-search-form" action="https://www.ibm.com/Search/" method="get">
+          <p>
+            <label for="q">IBM</label>
+            <input type="text" maxlength="100" value="" placeholder=Search name="q" id="q" aria-label="Search"/>
+            <input type="hidden" value="18" name="v"/>
+            <input type="hidden" value="utf" name="en"/>
+            <input type="hidden" value="en" name="lang"/>
+            <input type="hidden" value="us" name="cc"/>
+            <input type="submit" id="ibm-search" class="ibm-btn-search" value="Submit"/>
+          </p>
+        </form>
+      </div>
+    
+
+  </div> 
+  </div>
+
+  </div>
+
+  <div id="ibm-content-wrapper">
+      <header  aria-label="Navigation Header">
+                  <!-- Site Navigation -->
+      <nav role="navigation" aria-label="Site Navigation"  id="block-ibm-duo-subnavigation" class="ibm-sitenav-menu-container">
+        <div class="ibm-sitenav-menu-name">
+      <a href="/services">Services &amp; Consulting</a>
+  </div>
+<div class="ibm-sitenav-menu-list">
+  <ul class="menubar">
+                                        <li class="ibm-haschildlist" role="presentation">
+              <button role="menuitem" tabindex="-1">Services</button>
+              <ul role="menu">
+                                                      <li role="presentation">
+                      <a href="/services/applications" role="menuitem">Application services</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="/services/business-continuity" role="menuitem">Business continuity services</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="/services/process" role="menuitem">Business process services</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="/services/cloud" role="menuitem">Cloud services</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="/services/business" role="menuitem">Design &amp; business strategy</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="/services/network" role="menuitem">Network services</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="/security/services" role="menuitem">Security services</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="/services/technology-support" role="menuitem">Services for tech support</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="/services/talent-management" role="menuitem">Talent management services</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="/services" role="menuitem">View all Services</a>
+                    </li>
+                                                </ul>
+            </li>
+                                                      <li class="ibm-haschildlist" role="presentation">
+              <button role="menuitem" tabindex="-1">Learn</button>
+              <ul role="menu">
+                                                      <li role="presentation">
+                      <a href="/services/client-stories" role="menuitem">Client stories</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="https://www.ibm.com/blogs/services/" role="menuitem">Latest Thinking Blog</a>
+                    </li>
+                                                </ul>
+            </li>
+                                                      <li class="ibm-haschildlist" role="presentation">
+              <button role="menuitem" tabindex="-1">Explore more</button>
+              <ul role="menu">
+                                                      <li role="presentation">
+                      <a href="https://www.ibm.com/services/expert-advice/" role="menuitem">Engage experts</a>
+                    </li>
+                                                                        <li role="presentation">
+                      <a href="https://www.ibm.com/support/home/" role="menuitem">Get tech support</a>
+                    </li>
+                                                </ul>
+            </li>
+                                  </ul>
+</div>
+
+      </nav>
+      
+
+  </header>
+
+
+
+      <div class="region region-help">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+      <div class="region region-content">
+    <div id="block-ibm-duo-content">
+  
+    
+      
+
+
+
+
+              
+
+
+
+
+
+  
+  
+      
+	
+  
+
+
+  
+
+
+<div id="ibm-leadspace-head" role="banner" aria-labelledby="ibm-pagetitle-h1"  style="background-image: url(//1.cms.s81c.com/sites/default/files/2020-02-10/gbs_569-leadsapce.jpg); background-repeat:no-repeat; background-size: cover; background-position: Center Center;" class="ibm-background-blue-80 ibm-leadspace-fluid ibm-hidden-bg-small leadspace-mobile-bg-color ibm-no-border ibm-minimal">
+  <div id="ibm-leadspace-body" class="ibm-padding-top-1 ibm-padding-bottom-1">
+              <div class="ibm-fluid ibm-show-small">
+        <div class="ibm-col-small-12-12">
+          <p>
+                          <img src="//1.cms.s81c.com/sites/default/files/2020-02-10/gbs_569-leadsapce.jpg" alt="" class="ibm-resize" style="max-height: 360px;">
+                      </p>
+        </div>
+      </div>
+        <div class="ibm-fluid ibm-padding-bottom-0">
+              <div class="ibm-col-medium-12-6 ibm-col-12-6 ibm-col-small-12-12 ">
+          
+          
+  <h1 class="ibm-h1 ibm-textcolor-white-core ibm-padding-bottom-0 ibm-padding-top-1 leadspace-mobile-text-color leadspace-mobile-bg-color" id="ibm-pagetitle-h1">
+  <span>Social Security Scotland</span>
+  </h1>
+
+          
+
+                                
+                      
+  <p class="ibm-h4 ibm-light ibm-textcolor-white-core ibm-padding-top-1 ibm-padding-bottom-1 leadspace-mobile-text-color leadspace-mobile-bg-color">
+  <span>Develops new hosting platforms on AWS Cloud in partnership with IBM Services</span>
+  </p>
+
+          
+                                
+                      
+          
+        </div>
+      
+    </div>
+  </div>
+  </div>
+
+      
+
+
+  
+
+<main role="main" aria-labelledby="ibm-pagetitle-h1">
+  <div id="ibm-pcon">
+    <div id="ibm-content">
+      <div id="ibm-content-body" class="ibm-padding-top-0">
+        <div id="ibm-content-main">
+          
+                    
+          <div class="node__content">
+                        
+              
+              
+
+                            
+                            
+              
+              
+              
+              <div role="article" about="/services/client-stories/social-security-scotland-aws" class="ibm-band ibm-band--anchor-links ibm-background-black-core">
+                              <div  class="ibm-fluid ibm-padding-bottom-0">
+                                                                                                                                                                
+                    
+                                          <ul  class="ibm-textcolumns-5 ibm-link-list" data-widget="adjustanchorlinks">
+                                                  <li>
+                                                          <a class="ibm-anchor-down-link ibm-textcolor-white-core" href="#2320157">What was proposed</a>
+                                                      </li>
+                                                  <li>
+                                                          <a class="ibm-anchor-down-link ibm-textcolor-white-core" href="#2320175">The solution</a>
+                                                      </li>
+                                                  <li>
+                                                          <a class="ibm-anchor-down-link ibm-textcolor-white-core" href="#2320997">The results</a>
+                                                      </li>
+                                                  <li>
+                                                          <a class="ibm-anchor-down-link ibm-textcolor-white-core" href="#2320191">AWS Cloud services</a>
+                                                      </li>
+                                                  <li>
+                                                          <a class="ibm-anchor-down-link ibm-textcolor-white-core" href="#1311651">Contact us</a>
+                                                      </li>
+                                              </ul>
+
+                                            </div>
+                                                      </div>
+
+                            </div>
+                                    
+
+  
+  
+
+
+
+
+<div  class="ibm-band ibm-background-white-core ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1" id="2320113">
+        
+    
+
+              
+  
+  
+  
+        
+                
+  
+  
+  <div class="ibm-fluid">
+    <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+
+                      <h2  class="ibm-h2 ibm-padding-top-1 ibm-padding-bottom-1 ibm-textcolor-default">    <span > Results at a glance</span>
+</h2>
+                  </div>
+
+    <div class="ibm-col-12-9 ibm-col-medium-12-12 ">
+      <div class="ibm-fluid ibm-flex ibm-flex--wrap ibm-padding-top-1 ibm-padding-bottom-1">
+
+        
+                      
+                                                  
+              <div class="ibm-col-12-4 ibm-col-medium-12-6 ibm-flex">
+              
+<div class="ibm-card ibm-background-white-core ibm-no-border   ibm-left ibm-flex ibm-flex--column ibm-fullwidth" >
+
+      
+  
+  
+    <div class="ibm-card__content">
+          <h4 class="ibm-h4 ibm-bold ibm-textcolor-default"  live-edit-field-label="Headline">Repeatable infrastructure</h4>
+        <div class="ibm-textcolor-default"  live-edit-field-label="Body"><p>Automated infrastructure provisioning using a DevOps approach</p></div>
+                                                                                  </div>
+  
+  </div>
+            </div>
+                      
+                                                  
+              <div class="ibm-col-12-4 ibm-col-medium-12-6 ibm-flex">
+              
+<div class="ibm-card ibm-background-white-core ibm-no-border   ibm-left ibm-flex ibm-flex--column ibm-fullwidth" >
+
+      
+  
+  
+    <div class="ibm-card__content">
+          <h4 class="ibm-h4 ibm-bold ibm-textcolor-default"  live-edit-field-label="Headline">DevOps-based operations management</h4>
+        <div class="ibm-textcolor-default"  live-edit-field-label="Body"><p>Improved configuration management using pipeline-based image and patch management</p></div>
+                                                                                  </div>
+  
+  </div>
+            </div>
+                      
+                                                  
+              <div class="ibm-col-12-4 ibm-col-medium-12-6 ibm-flex">
+              
+<div class="ibm-card ibm-background-white-core ibm-no-border   ibm-left ibm-flex ibm-flex--column ibm-fullwidth" >
+
+      
+  
+  
+    <div class="ibm-card__content">
+          <h4 class="ibm-h4 ibm-bold ibm-textcolor-default"  live-edit-field-label="Headline">Cost-effective and elastic infrastructure</h4>
+        <div class="ibm-textcolor-default"  live-edit-field-label="Body"><p>Improved run and manage costs with automation and elastic scaling provided by AWS Cloud</p></div>
+                                                                                  </div>
+  
+  </div>
+            </div>
+                        </div>
+
+          </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+  
+      
+
+
+
+<div  style="background-image:url(//1.cms.s81c.com/sites/default/files/2020-02-10/gbs_569-band02.jpg); background-repeat:no-repeat; background-size: cover; background-position: center center;" class="ibm-band-background-image ibm-band ibm-background-white-core ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1" id="2320135">
+        
+    
+
+                
+  
+  
+    
+  
+  <div class="ibm-fluid ibm-padding-bottom-0">
+    <div >
+            <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+                  <h2  class="ibm-h2 ibm-h3-small ibm-padding-top-1 ibm-padding-bottom-1 ibm-textcolor-default"  live-edit-field-label="Headline">About the customer</h2>
+              </div>
+            <div class="ibm-col-12-6 ibm-col-medium-12-10 ">
+                                            <div class="ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1"  live-edit-field-label="Body"> <p>As part of the devolution of more powers arising from the <a href="http://webarchive.nationalarchives.gov.uk/20151202171017/http:/www.smith-commission.scot/">Smith Commission</a>, The Scottish Government established the new Scottish Social Security Directorate to support the implementation of  eleven Low Income and Disability Benefits and the creation of the Social Security Scotland Agency. In order for Social Security Scotland to implement benefit delivery differently for the citizens of Scotland, a number of new Digital solutions were required to be securely designed and developed with Dignity, Fairness, and Respect at the heart of everything it does. The new solutions required deployment on a security-rich, scalable, and resilient hosting platform which had to be rapidly implemented to exacting standards aligning with program delivery timelines.</p> </div>
+                                                                    </div>
+
+            <div class="ibm-col-12-3 ibm-col-medium-12-5 ">
+                                        
+                        </div>
+    </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+
+
+
+
+<div  class="ibm-band ibm-background-white-core ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1" id="2320147">
+        
+    
+
+                
+  
+  
+    
+  
+  <div class="ibm-fluid ibm-padding-bottom-0">
+    <div >
+            <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+                  <h2  class="ibm-h2 ibm-h3-small ibm-padding-top-1 ibm-padding-bottom-1 ibm-textcolor-default"  live-edit-field-label="Headline">Customer problem statement</h2>
+              </div>
+            <div class="ibm-col-12-6 ibm-col-medium-12-10 ">
+                                            <div class="ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1"  live-edit-field-label="Body"> <p>The Social Security Scotland Digital and Technology Strategy set out a “cloud first” approach. Following a thorough technical evaluation and commercial considerations they chose to create this new platform using AWS Cloud with an automated “Infrastructure as Code” principle. This was done to embrace the latest standards, automate wherever possible and reduce recovery times in the event of service interruptions or difficulties.  The customer had a desire to embrace cloud adoption from the outset and lead the way in the Scottish Public Sector.</p> </div>
+                                                                    </div>
+
+            <div class="ibm-col-12-3 ibm-col-medium-12-5 ">
+                                        
+                        </div>
+    </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+
+
+
+
+<div  class="ibm-band ibm-background-white-core ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1" id="2320157">
+        
+    
+
+                
+  
+  
+    
+  
+  <div class="ibm-fluid ibm-padding-bottom-0">
+    <div >
+            <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+                  <h2  class="ibm-h2 ibm-h3-small ibm-padding-top-1 ibm-padding-bottom-1 ibm-textcolor-default"  live-edit-field-label="Headline">What was proposed</h2>
+              </div>
+            <div class="ibm-col-12-6 ibm-col-medium-12-10 ">
+                                            <div class="ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1"  live-edit-field-label="Body"> <p>To meet the deadlines required for delivery of the hosting platform, Social Security Scotland chose to partner with IBM Services. This required the deployment of pre-production and production environments with a supporting set of 32 security and infrastructure foundation services to create a hosting platform which will scale and expand with future demand.</p>
+
+<p>Quickly implementing a DevOps approach and by leveraging existing ‘infrastructure as code” assets available from IBM, the project was able to get off to a rapid start. A collaborative agile delivery model where the infrastructure and security teams from the Social Security Scotland and IBM worked closely from the outset made it possible to build and deploy a number of environments in AWS Cloud.</p> </div>
+                                                                    </div>
+
+            <div class="ibm-col-12-3 ibm-col-medium-12-5 ">
+                                        
+                        </div>
+    </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+  
+      
+
+
+
+<div  style="background-image:url(//1.cms.s81c.com/sites/default/files/2020-02-10/gbs_569-band04.jpg); background-repeat:no-repeat; background-size: cover; background-position: center center;" class="ibm-band-background-image ibm-band ibm-background-black-core ibm-textcolor-white-core ibm-padding-top-1 ibm-padding-bottom-1" id="2320175">
+        
+    
+
+                
+  
+  
+    
+  
+  <div class="ibm-fluid ibm-padding-bottom-0">
+    <div >
+            <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+                  <h2  class="ibm-h2 ibm-h3-small ibm-padding-top-1 ibm-padding-bottom-1 ibm-textcolor-white-core"  live-edit-field-label="Headline">The solution</h2>
+              </div>
+            <div class="ibm-col-12-6 ibm-col-medium-12-10 ">
+                                            <div class="ibm-textcolor-white-core ibm-padding-top-1 ibm-padding-bottom-1"  live-edit-field-label="Body"> <p>In a rapid delivery window, the IBM team was able to build and deploy a ‘secure by design’ platform that met the customer needs for developing all-inclusive solution by providing:</p>
+
+<p><strong>Infrastructure built on DevOps: </strong>A repeatable, cost-effective and highly maintainable platform with a fully automated set of infrastructure and security-centric services. These services were delivered as “Infrastructure as Code” for both pre-production and production. The platform leveraged AWS Cloud and open-source services that included AWS CloudFormation, AWS EC2 Systems Manager and Ansible Playbooks for provisioning.</p>
+
+<p><strong>Configuration and systems management built on DevOps:</strong> Pipelines for Gold Image and an in-place patch management process using AWS EC2 Systems Manager and Ansible Playbooks helped IBM rapidly create the solution.</p> </div>
+                                                                    </div>
+
+            <div class="ibm-col-12-3 ibm-col-medium-12-5 ">
+                                        
+                        </div>
+    </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+
+
+
+
+<div  class="ibm-band ibm-background-white-core ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-0" id="2320997">
+        
+    
+
+                
+  
+  
+    
+  
+  <div class="ibm-fluid ibm-padding-bottom-0">
+    <div >
+            <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+                  <h2  class="ibm-h2 ibm-h3-small ibm-padding-top-1 ibm-padding-bottom-1 ibm-textcolor-default"  live-edit-field-label="Headline">The results</h2>
+              </div>
+            <div class="ibm-col-12-6 ibm-col-medium-12-10 ">
+                                            <div class="ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1"  live-edit-field-label="Body"> <p>Using the assets, tools and services developed by IBM, the project will successfully be delivered by late October 2018 for the first iteration of the hosting platform to support the deployment of its first benefit delivery. The customer has dramatically improved its ability to support the its hosting needs which is demonstrated by the number and complexity of environments that are now managed using this platform. These include:</p> </div>
+                                                                    </div>
+
+            <div class="ibm-col-12-3 ibm-col-medium-12-5 ">
+                                        
+                        </div>
+    </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+
+
+
+
+<div  class="ibm-band ibm-background-white-core ibm-textcolor-default ibm-padding-top-0 ibm-padding-bottom-0" id="2321035">
+        
+    
+
+              
+  
+  
+  
+        
+                
+  
+  
+  <div class="ibm-fluid">
+    <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+
+          </div>
+
+    <div class="ibm-col-12-9 ibm-col-medium-12-12 ">
+      <div class="ibm-fluid ibm-flex ibm-flex--wrap ibm-padding-top-1 ibm-padding-bottom-1">
+
+        
+                      
+                                                  
+              <div class="ibm-col-12-4 ibm-col-medium-12-6 ibm-flex">
+              
+<div class="ibm-card ibm-background-neutral-white-40 ibm-no-border   ibm-left ibm-flex ibm-flex--column ibm-fullwidth" >
+
+      
+  
+  
+    <div class="ibm-card__content">
+            <div class="ibm-textcolor-default"  live-edit-field-label="Body"><p>Provisioning over 24 Dev/Test environments to support the demands of the agile delivery teams using the DevOps infrastructure.</p></div>
+                                                                                  </div>
+  
+  </div>
+            </div>
+                      
+                                                  
+              <div class="ibm-col-12-4 ibm-col-medium-12-6 ibm-flex">
+              
+<div class="ibm-card ibm-background-neutral-white-40 ibm-no-border   ibm-left ibm-flex ibm-flex--column ibm-fullwidth" >
+
+      
+  
+  
+    <div class="ibm-card__content">
+            <div class="ibm-textcolor-default"  live-edit-field-label="Body"><p>Provisioning 2 complex non-production environments based on a 3-tiered VPC architecture that includes segregated Management, DMZ and Application VPCs to create a secure AWS Cloud platform.</p></div>
+                                                                                  </div>
+  
+  </div>
+            </div>
+                      
+                                                  
+              <div class="ibm-col-12-4 ibm-col-medium-12-6 ibm-flex">
+              
+<div class="ibm-card ibm-background-neutral-white-40 ibm-no-border   ibm-left ibm-flex ibm-flex--column ibm-fullwidth" >
+
+      
+  
+  
+    <div class="ibm-card__content">
+            <div class="ibm-textcolor-default"  live-edit-field-label="Body"><p>Provisioning a single complex production environment with over 32 supporting management and security services.</p></div>
+                                                                                  </div>
+  
+  </div>
+            </div>
+                        </div>
+
+          </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+
+
+
+
+<div  class="ibm-band ibm-background-white-core ibm-textcolor-default ibm-padding-top-0 ibm-padding-bottom-1" id="2321049">
+        
+    
+
+                
+  
+  
+    
+  
+  <div class="ibm-fluid ibm-padding-bottom-0">
+    <div >
+            <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+              </div>
+            <div class="ibm-col-12-6 ibm-col-medium-12-10 ">
+                                            <div class="ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1"  live-edit-field-label="Body"> <p>Thanks to the platform and tools developed by IBM, Social Security Scotland has the foundation to support continued growth of the AWS Cloud platform and handle the expanding portfolio of benefits delivery. The Asset library that will be delivered to the customer will become a part of a digital code library to allow other Scottish Public Sector organizations to embrace a similar “cloud first” approach.</p> </div>
+                                                                    </div>
+
+            <div class="ibm-col-12-3 ibm-col-medium-12-5 ">
+                                        
+                        </div>
+    </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+
+
+
+
+<div  class="ibm-band ibm-background-neutral-white-40 ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1" id="2320191">
+        
+    
+
+                
+  
+  
+    
+  
+  <div class="ibm-fluid ibm-padding-bottom-0">
+    <div >
+            <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+                  <h2  class="ibm-h2 ibm-h3-small ibm-padding-top-1 ibm-padding-bottom-1 ibm-textcolor-default"  live-edit-field-label="Headline">AWS Cloud services used</h2>
+              </div>
+            <div class="ibm-col-12-6 ibm-col-medium-12-10 ">
+                                            <div class="ibm-textcolor-default ibm-padding-top-1 ibm-padding-bottom-1"  live-edit-field-label="Body"> <p>This project showcases the benefits of AWS Cloud services that included AWS EC2, AWS Lambda, AWS Batch<strong>, </strong>AWS Route 53, AWS Directory Service<strong>, </strong>AWS S3, AWS Glacier<strong>, </strong>AWS CloudFormation, AWS Config; AWS Systems Parameter Store, AWS Systems Manager<strong>, </strong>AWS CloudWatch, AWS CloudTrail, AWS CodeCommit, Amazon Time Sync Service, AWS Elastic Load Balancer‎ and AWS Identity and Access Management</p>
+
+<p>For more information, visit <a href="http://www.ibm.com/services/cloud/aws">www.ibm.com/services/cloud/aws</a></p> </div>
+                                                                    </div>
+
+            <div class="ibm-col-12-3 ibm-col-medium-12-5 ">
+                                        
+                        </div>
+    </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+  
+      
+
+
+
+<div  style="background-image:url(//1.cms.s81c.com/sites/default/files/2019-02-20/contact_band_image_new.jpg); background-repeat:no-repeat; background-size: cover; background-position: center center;" class="ibm-band-background-image ibm-band ibm-background-systems-blue-80 ibm-textcolor-white-core ibm-padding-top-1 ibm-padding-bottom-1" id="1311651">
+        
+    
+
+                
+  
+  
+    
+        
+  <div class="ibm-fluid ibm-padding-bottom-0">
+    <div >
+            <div class="ibm-col-12-3 ibm-col-medium-12-12 ">
+                  <h2  class="ibm-h2 ibm-h3-small ibm-padding-top-1 ibm-padding-bottom-1 ibm-textcolor-white-core"  live-edit-field-label="Headline">Talk to us about getting started</h2>
+              </div>
+            <div class="ibm-col-12-6 ibm-col-medium-12-10 ">
+                                            <div class="ibm-textcolor-white-core ibm-padding-top-1 ibm-padding-bottom-1"  live-edit-field-label="Body"> <p>We have a vast portfolio of capabilities, services and products to help jumpstart your transformation journey. Click below for two places to start.</p> </div>
+                                                            
+    
+<div class="ibm-button-link ibm-btn-row ibm-ind-link ibm-padding-top-1 ibm-padding-bottom-1"><p class="ibm-btn-row ibm-ind-link">            <a  target="_blank" data-ibm-contact="scheduler-link" href="https://www.ibm.com/account/reg/signup?formid=MAIL-gbs" class="ibm-btn-pri ibm-btn-no-icon-link ibm-btn-white     "><span  >Speak to an expert</span></a>
+            <a  target="_blank" href="https://www.ibm.com/account/reg/signup?formid=urx-38886" class="ibm-btn-sec ibm-btn-no-icon-link ibm-btn-white     "><span  >Try virtual IBM Garage</span></a>
+    </p></div>
+                                    </div>
+
+            <div class="ibm-col-12-3 ibm-col-medium-12-5 ">
+                                        
+                        </div>
+    </div>
+  </div>
+    </div>
+
+              
+
+  
+  
+
+
+
+
+<div  class="ibm-band ibm-background-black-core ibm-textcolor-default ibm-padding-top-0 ibm-padding-bottom-0" id="712656">
+        
+    
+
+                 
+  <div  class="ibm-fluid ibm-padding-top-30">
+    <div class="ibm-col-12-6 ibm-col-medium-12-12 ibm-alternate-background ">
+      
+      
+    </div>
+
+    
+            <div class="ibm-hidden-medium ibm-hidden-small  ibm-alternate-background ibm-col-12-4">
+          <p  class="ibm-h4 ibm-light ibm-padding-bottom-0 ibm-fright" >Follow us</p>
+        </div>
+        <div class="ibm-col-12-2 ibm-hidden-large ibm-hidden-xlarge ibm-alternate-background">
+          <p   class="ibm-h4 ibm-light ibm-padding-bottom-0" >Follow us</p>
+        </div>
+        <div class=" ibm-col-12-2 ibm-col-medium-12-4 ibm-alternate-background ">
+      <p class="ibm-ind-link ibm-icononly ibm-padding-bottom-0">
+                  <a class="ibm-twitter-mono-link" target="_blank" href="https://twitter.com/IBMServices">Visit us on Twitter</a>
+                  <a class="ibm-linkedin-mono-link" target="_blank" href="https://www.linkedin.com/showcase/ibm-services/">Visit us on LinkedIn</a>
+                  <a class="ibm-blog-encircled-link" target="_blank" href="https://www.ibm.com/blogs/services/">Visit us on blog</a>
+              </p>
+    </div>
+  </div>
+
+    </div>
+
+      
+          </div>
+
+        </div>       </div>     </div>   </div> </main>
+
+  </div>
+
+  </div>
+
+  </div>
+    <footer role="contentinfo" aria-label="IBM">
+      <div class="region region-footer">
+    
+
+
+
+<div id="ibm-footer">
+
+    <div class="ibm-columns">
+      <div class="ibm-col-1-1">
+                  <div class="ibm-footer-corporate-links">
+            <ul>
+                              <li>
+                  <a href="https://www.ibm.com/contact/us/en/?lnk=flg-cont-usen">Contact IBM</a>
+                </li>
+                              <li>
+                  <a href="https://www.ibm.com/privacy/us/en/?lnk=flg-priv-usen">Privacy</a>
+                </li>
+                              <li>
+                  <a href="https://www.ibm.com/us-en/legal?lnk=flg-tous-usen">Terms of use</a>
+                </li>
+                              <li>
+                  <a href="https://www.ibm.com/accessibility/us/en/?lnk=flg-acce-usen">Accessibility</a>
+                </li>
+                            <li id="ibm-truste-cp">
+                <a href="#" onclick="truste.eu.clickListener();return false;">Cookie preferences</a>
+              </li>
+            </ul>
+          </div>
+        
+                </div>
+    </div>
+
+</div>
+
+  </div>
+
+  </footer>
+  
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/2319963","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en-us"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"core\/html5shiv,hc_fractal\/main_css,hc_fractal\/main_js,ibm_ckeditor\/ibm_ckeditor_table_style,ibm_tmgmt_concurrency\/ibm_tmgmt_concurrency_messaging,ibm_tmgmt_concurrency\/ibm_tmgmt_concurrency_publisher,ibm_tmgmt_concurrency\/ibm_tmgmt_concurrency_publisher_finish,northstar\/anchor-link-band,northstar\/band,northstar\/card,northstar\/grid-fluid,northstar\/shame,northstar\/stats,northstar\/tables,northstar\/textcolumns,system\/base,tactic_codes\/tactic_codes","theme":"ibm_duo","theme_token":"iUGGvcLm_GzT7YPlUsNDor0hrvn1q6QpDBRKO8ceD_0"},"ajaxTrustedUrl":[],"ibm_tmgmt_concurrency_publisher":{"nid":"2319963","language":"en-us","submit_button":"#edit-submit","form":"#content-moderation-entity-moderation-form","route":"entity.node.canonical"},"user":{"uid":0,"permissionsHash":"93bd7e0d2fff748574781770e6657295209fb041109becf127d30916192a7007"}}</script>
+<script src="//1.cms.s81c.com/sites/default/files/js/js_ToOKmGqN_BwWW9BZhroXlQaf8oAXJ15zdNSs2iVH20o.js"></script>
+<script src="//1.www.s81c.com/common/v18/drupal/js/tables.js" defer></script>
+<script src="//1.cms.s81c.com/modules/contrib/hc_fractal/dist/js/interactions.js?v=1.1.10" defer></script>
+<script src="//1.cms.s81c.com/modules/contrib/hc_fractal/dist/js/background-image-lazy-load.js?v=1.1.10" defer></script>
+<script src="//1.www.s81c.com/common/js/tactic.js" defer></script>
+<script src="//1.www.s81c.com/common/js/tacticbindlinks.js" defer></script>
+<script src="//1.cms.s81c.com/sites/default/files/js/js_u2jeYnuguWfCew6-ZT-5A6EwRtJYJvsrgO2_ea5EW8A.js"></script>
+
+      </body>
+</html>
